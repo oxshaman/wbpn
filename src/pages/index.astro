@@ -1,0 +1,642 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base>
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__brand">
+        <span class="nav__logo">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <rect x="0" y="0" width="13" height="13" rx="2" fill="var(--col-mint)" />
+            <rect x="15" y="0" width="13" height="13" rx="2" fill="var(--col-lavender)" />
+            <rect x="0" y="15" width="13" height="13" rx="2" fill="var(--col-peach)" />
+            <rect x="15" y="15" width="13" height="13" rx="2" fill="var(--col-coral)" />
+          </svg>
+        </span>
+        <span class="nav__name">Western Balkans Payment Solutions</span>
+      </a>
+      <div class="nav__links">
+        <a href="#services">Services</a>
+        <a href="#regions">Regions</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero__grid-bg" aria-hidden="true"></div>
+    <div class="hero__accent hero__accent--1" aria-hidden="true"></div>
+    <div class="hero__accent hero__accent--2" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <div class="hero__badge" data-animate>Stablecoin-Powered Payments</div>
+      <h1 class="hero__title" data-animate data-delay="1">
+        Seamless payments<br />across the <span class="hero__highlight">Western Balkans</span>
+      </h1>
+      <p class="hero__subtitle" data-animate data-delay="2">
+        Stablecoin-based payment infrastructure connecting Serbia, Croatia, Slovenia,
+        Bosnia & Herzegovina, Montenegro, North Macedonia, Albania, and Kosovo — fast, transparent, and built for the region's future.
+      </p>
+      <div class="hero__divider" data-animate data-delay="3" aria-hidden="true"></div>
+      <div class="hero__trust" data-animate data-delay="3">
+        <span class="hero__trust-item">Multi-Market Coverage</span>
+        <span class="hero__trust-sep" aria-hidden="true"></span>
+        <span class="hero__trust-item">Stablecoin Settlement</span>
+        <span class="hero__trust-sep" aria-hidden="true"></span>
+        <span class="hero__trust-item">Regulatory Compliance</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="services__inner">
+      <div class="section-header" data-animate>
+        <span class="section-tag">Solutions</span>
+        <h2 class="section-title">Stablecoin-powered infrastructure<br />built for the region</h2>
+        <p class="section-desc">
+          End-to-end financial services leveraging stablecoins for fast, low-cost
+          settlement — tailored to Western Balkans regulatory frameworks.
+        </p>
+      </div>
+      <div class="services__grid">
+        <div class="service-card service-card--mint" data-animate data-delay="1">
+          <div class="service-card__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Cross-Border Transfers</h3>
+          <p class="service-card__desc">
+            Stablecoin-settled transfers between Western Balkans markets —
+            near-instant, low-cost, and fully compliant.
+          </p>
+          <span class="service-card__tag">Stablecoin-settled</span>
+        </div>
+        <div class="service-card service-card--lavender" data-animate data-delay="2">
+          <div class="service-card__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Card Processing</h3>
+          <p class="service-card__desc">
+            Multi-currency card acquiring and issuing with support for Visa,
+            Mastercard, and regional card schemes across all markets.
+          </p>
+          <span class="service-card__tag">PCI DSS</span>
+        </div>
+        <div class="service-card service-card--coral" data-animate data-delay="3">
+          <div class="service-card__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Compliance & KYC</h3>
+          <p class="service-card__desc">
+            Automated identity verification and AML screening built for multi-jurisdictional
+            requirements across the region.
+          </p>
+          <span class="service-card__tag">EU-aligned</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="regions" id="regions">
+    <div class="regions__inner">
+      <div class="section-header" data-animate>
+        <span class="section-tag">Coverage</span>
+        <h2 class="section-title">Active across the region</h2>
+        <p class="section-desc">
+          Licensed and operational across every Western Balkans economy.
+        </p>
+      </div>
+      <div class="regions__grid" data-animate data-delay="1">
+        <div class="region-card">
+          <span class="region-card__flag">🇷🇸</span>
+          <span class="region-card__name">Serbia</span>
+          <span class="region-card__status">Active</span>
+        </div>
+        <div class="region-card">
+          <span class="region-card__flag">🇭🇷</span>
+          <span class="region-card__name">Croatia</span>
+          <span class="region-card__status">Active</span>
+        </div>
+        <div class="region-card">
+          <span class="region-card__flag">🇸🇮</span>
+          <span class="region-card__name">Slovenia</span>
+          <span class="region-card__status">Active</span>
+        </div>
+        <div class="region-card">
+          <span class="region-card__flag">🇧🇦</span>
+          <span class="region-card__name">Bosnia & Herzegovina</span>
+          <span class="region-card__status">Active</span>
+        </div>
+        <div class="region-card">
+          <span class="region-card__flag">🇲🇪</span>
+          <span class="region-card__name">Montenegro</span>
+          <span class="region-card__status">Active</span>
+        </div>
+        <div class="region-card">
+          <span class="region-card__flag">🇲🇰</span>
+          <span class="region-card__name">North Macedonia</span>
+          <span class="region-card__status">Active</span>
+        </div>
+        <div class="region-card">
+          <span class="region-card__flag">🇦🇱</span>
+          <span class="region-card__name">Albania</span>
+          <span class="region-card__status">Active</span>
+        </div>
+        <div class="region-card">
+          <span class="region-card__flag">🇽🇰</span>
+          <span class="region-card__name">Kosovo</span>
+          <span class="region-card__status">Active</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__content">
+        <div class="nav__brand">
+          <span class="nav__logo">
+            <svg width="20" height="20" viewBox="0 0 28 28" fill="none">
+              <rect x="0" y="0" width="13" height="13" rx="2" fill="var(--col-mint)" />
+              <rect x="15" y="0" width="13" height="13" rx="2" fill="var(--col-lavender)" />
+              <rect x="0" y="15" width="13" height="13" rx="2" fill="var(--col-peach)" />
+              <rect x="15" y="15" width="13" height="13" rx="2" fill="var(--col-coral)" />
+            </svg>
+          </span>
+          <span class="nav__name" style="font-size:13px;">WBPS</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+</Base>
+
+<style>
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes subtlePulse {
+    0%, 100% { opacity: 0.35; }
+    50% { opacity: 0.55; }
+  }
+
+  [data-animate] {
+    opacity: 0;
+    animation: fadeUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+  [data-delay="1"] { animation-delay: 0.12s; }
+  [data-delay="2"] { animation-delay: 0.24s; }
+  [data-delay="3"] { animation-delay: 0.36s; }
+
+  /* ─── NAV ─── */
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: rgba(248, 247, 244, 0.9);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--col-border);
+  }
+
+  .nav__inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav__brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav__logo { display: flex; align-items: center; }
+
+  .nav__name {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: var(--col-navy);
+  }
+
+  .nav__links {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--col-text-muted);
+  }
+
+  .nav__links a {
+    transition: color 0.2s;
+    letter-spacing: 0.01em;
+  }
+
+  .nav__links a:hover {
+    color: var(--col-navy);
+  }
+
+  /* ─── SECTION COMMON ─── */
+  .section-tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--col-text-muted);
+    background: var(--col-surface);
+    border: 1px solid var(--col-border);
+    padding: 5px 14px;
+    border-radius: var(--radius-xs);
+    margin-bottom: 24px;
+  }
+
+  .section-title {
+    font-size: clamp(26px, 3.5vw, 38px);
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.025em;
+    margin-bottom: 16px;
+    color: var(--col-navy);
+  }
+
+  .section-desc {
+    font-size: 15px;
+    color: var(--col-text-muted);
+    max-width: 460px;
+    line-height: 1.7;
+  }
+
+  .section-header {
+    margin-bottom: 60px;
+  }
+
+  /* ─── HERO ─── */
+  .hero {
+    position: relative;
+    padding: 180px 40px 120px;
+    overflow: hidden;
+  }
+
+  .hero__grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(26, 26, 46, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(26, 26, 46, 0.03) 1px, transparent 1px);
+    background-size: 72px 72px;
+    mask-image: radial-gradient(ellipse 60% 50% at 50% 40%, black 10%, transparent 70%);
+    -webkit-mask-image: radial-gradient(ellipse 60% 50% at 50% 40%, black 10%, transparent 70%);
+  }
+
+  .hero__accent {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    animation: subtlePulse 10s ease-in-out infinite;
+  }
+
+  .hero__accent--1 {
+    width: 480px;
+    height: 480px;
+    background: var(--col-mint);
+    opacity: 0.2;
+    top: 20px;
+    right: 5%;
+  }
+
+  .hero__accent--2 {
+    width: 380px;
+    height: 380px;
+    background: var(--col-lavender);
+    opacity: 0.15;
+    bottom: -40px;
+    left: 8%;
+    animation-delay: 4s;
+  }
+
+  .hero__inner {
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero__badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--col-text-muted);
+    background: var(--col-surface);
+    border: 1px solid var(--col-border);
+    padding: 6px 16px;
+    border-radius: var(--radius-xs);
+    margin-bottom: 32px;
+  }
+
+  .hero__title {
+    font-size: clamp(34px, 5vw, 58px);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+    max-width: 720px;
+    color: var(--col-navy);
+  }
+
+  .hero__highlight {
+    background: linear-gradient(135deg, var(--col-lavender-deep), var(--col-mint-deep));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero__subtitle {
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--col-text-muted);
+    max-width: 540px;
+    margin: 0 auto 40px;
+  }
+
+  .hero__divider {
+    width: 48px;
+    height: 1px;
+    background: var(--col-border);
+    margin-bottom: 28px;
+  }
+
+  .hero__trust {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero__trust-item {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--col-text-muted);
+    text-transform: uppercase;
+    padding: 0 20px;
+  }
+
+  .hero__trust-sep {
+    width: 1px;
+    height: 14px;
+    background: var(--col-border);
+    flex-shrink: 0;
+  }
+
+  /* ─── SERVICES ─── */
+  .services {
+    padding: 120px 40px;
+    border-top: 1px solid var(--col-border);
+  }
+
+  .services__inner {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .services__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--col-border);
+    border: 1px solid var(--col-border);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+  }
+
+  .service-card {
+    padding: 40px 36px;
+    background: var(--col-surface);
+    position: relative;
+    transition: background 0.3s;
+  }
+
+  .service-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+  }
+
+  .service-card--mint::before { background: var(--col-mint); }
+  .service-card--lavender::before { background: var(--col-lavender); }
+  .service-card--coral::before { background: var(--col-coral); }
+
+  .service-card:hover {
+    background: #fdfcfa;
+  }
+
+  .service-card__icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-xs);
+    margin-bottom: 24px;
+  }
+
+  .service-card--mint .service-card__icon {
+    background: rgba(168, 230, 207, 0.2);
+    color: var(--col-mint-deep);
+  }
+
+  .service-card--lavender .service-card__icon {
+    background: rgba(195, 177, 225, 0.2);
+    color: var(--col-lavender-deep);
+  }
+
+  .service-card--coral .service-card__icon {
+    background: rgba(255, 179, 179, 0.2);
+    color: var(--col-coral-deep);
+  }
+
+  .service-card__title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--col-navy);
+    letter-spacing: -0.01em;
+  }
+
+  .service-card__desc {
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: var(--col-text-muted);
+    margin-bottom: 24px;
+  }
+
+  .service-card__tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: var(--radius-xs);
+    border: 1px solid var(--col-border);
+    color: var(--col-text-muted);
+  }
+
+  /* ─── REGIONS ─── */
+  .regions {
+    padding: 120px 40px;
+    border-top: 1px solid var(--col-border);
+  }
+
+  .regions__inner {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .regions__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--col-border);
+    border: 1px solid var(--col-border);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+  }
+
+  .region-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 20px 24px;
+    background: var(--col-surface);
+    transition: background 0.2s;
+  }
+
+  .region-card:hover {
+    background: #fdfcfa;
+  }
+
+  .region-card__flag {
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .region-card__name {
+    font-size: 13.5px;
+    font-weight: 600;
+    flex: 1;
+    color: var(--col-navy);
+    letter-spacing: -0.01em;
+  }
+
+  .region-card__status {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--col-mint-deep);
+  }
+
+  /* ─── FOOTER ─── */
+  .footer {
+    padding: 28px 40px;
+    border-top: 1px solid var(--col-border);
+  }
+
+  .footer__inner {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .footer__content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 12px;
+    color: var(--col-text-muted);
+  }
+
+  .footer__copy {
+    letter-spacing: 0.01em;
+  }
+
+  .footer__email {
+    margin-left: auto;
+    color: var(--col-text-muted);
+    transition: color 0.2s;
+    letter-spacing: 0.01em;
+  }
+
+  .footer__email:hover {
+    color: var(--col-text);
+  }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 768px) {
+    .nav__links {
+      display: none;
+    }
+
+    .hero {
+      padding: 140px 24px 100px;
+    }
+
+    .hero__trust {
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .hero__trust-sep {
+      display: none;
+    }
+
+    .services {
+      padding: 80px 24px;
+    }
+
+    .services__grid {
+      grid-template-columns: 1fr;
+    }
+
+    .regions {
+      padding: 80px 24px;
+    }
+
+    .regions__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer__content {
+      flex-direction: column;
+      gap: 12px;
+      text-align: center;
+    }
+
+    .footer__email {
+      margin-left: 0;
+    }
+  }
+</style>
